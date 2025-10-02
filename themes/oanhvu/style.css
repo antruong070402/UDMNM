@@ -1591,3 +1591,52 @@ body {
         padding: 12px 20px;
     }
 }
+
+/* Footer Mission Section */
+.footer-mission {
+    max-width: 400px;
+}
+
+.footer-mission .footer-title {
+    color: #4a90e2;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.mission-content {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.mission-content p {
+    color: white;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+    font-weight: 400;
+}
+
+/* Responsive adjustments for footer mission */
+@media (max-width: 768px) {
+    .footer-mission {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+    
+    .footer-mission .footer-title {
+        font-size: 18px;
+    }
+    
+    .mission-content {
+        padding: 15px;
+    }
+    
+    .mission-content p {
+        font-size: 13px;
+    }
+}
