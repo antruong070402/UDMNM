@@ -39,34 +39,6 @@
                     </div>
                 </div>
 
-                <!-- Column 2: About Us -->
-                <div class="footer-column">
-                    <h4 class="footer-title">Về chúng tôi</h4>
-                    <ul class="footer-links">
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>">Trang chủ</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/ve-chung-toi/')); ?>">Về chúng tôi</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/tac-pham/')); ?>">Tác phẩm</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/dat-lich-hen/')); ?>">Đặt lịch hẹn</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/tin-tuc/')); ?>">Tin tức</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/lien-he/')); ?>">Liên hệ</a></li>
-                    </ul>
-                </div>
-
-                <!-- Column 3: Customer Support -->
-                <div class="footer-column">
-                    <h4 class="footer-title">Hỗ trợ phật tử  </h4>
-                    <ul class="footer-links">
-                        <li><a href="<?php echo esc_url(home_url('/')); ?>">Trang chủ</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/ve-chung-toi/')); ?>">Về chúng tôi</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/tac-pham/')); ?>">Tác phẩm</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/dat-lich-hen/')); ?>">Đặt lịch hẹn</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/tin-tuc/')); ?>">Tin tức</a></li>
-                        <li><a href="<?php echo esc_url(home_url('/lien-he/')); ?>">Liên hệ</a></li>
-                    </ul>
-                </div>
-
-                <!-- Column 4: Services -->
-              
             </div>
         </div>
     </footer>
