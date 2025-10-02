@@ -70,6 +70,9 @@ add_action('widgets_init', 'pressword_widgets_init');
 function pressword_scripts() {
     wp_enqueue_style('pressword-style', get_stylesheet_uri(), array(), '1.0.0');
     
+    // Add Font Awesome 6.5.0 from CDN
+    wp_enqueue_style('font-awesome', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css', array(), '6.5.0');
+    
     // Add custom JavaScript
     wp_enqueue_script('pressword-script', get_template_directory_uri() . '/js/script.js', array(), '1.0.0', true);
     
