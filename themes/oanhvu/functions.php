@@ -89,10 +89,9 @@ function pressword_default_menu() {
     echo '<ul id="primary-menu">';
     echo '<li><a href="' . esc_url(home_url('/')) . '">Trang chủ</a></li>';
     echo '<li><a href="' . esc_url(home_url('/Blog/')) . '">Phật Pháp</a></li>';
-    echo '<li><a href="' . esc_url(home_url('/nhac-gdpt/')) . '"><i class="fas fa-music"></i> nhạc GDPT</a></li>';
     echo '<li><a href="' . esc_url(home_url('/contact/')) . '">Tin Tức</a></li>';
     echo '<li><a href="' . esc_url(home_url('/trang-mau/')) . '">Tu Học Huấn Luyện </a></li>';
-    
+    echo '<li><a href="' . esc_url(home_url('/trang-mau/')) . '">Khác </a></li>';
     echo '</ul>';
 }
 
