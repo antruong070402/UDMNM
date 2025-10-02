@@ -43,7 +43,7 @@
                 <div class="footer-column footer-mission">
                     <h4 class="footer-title">Hướng đến tương lai</h4>
                     <div class="mission-content">
-                        <p>GDPT Thiền Hương sẽ tiếp tục phát triển trong tinh thương và trí tuệ, đồng hành cùng thế hệ trẻ giữ gìn ánh sáng Phật pháp muôn đời.</p>
+                        <p>GDPT Thiền Hương sẽ tiếp tục phát triển trong tình thương và trí tuệ, đồng hành cùng thế hệ trẻ giữ gìn ánh sáng Phật pháp muôn đời.</p>
                     </div>
                 </div>
 
