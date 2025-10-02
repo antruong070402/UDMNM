@@ -1595,10 +1595,10 @@ body {
 /* Footer Content Layout */
 .footer-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    align-items: center;
-    min-height: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+    align-items: flex-start;
+    min-height: 250px;
 }
 
 /* Footer Mission Section */
@@ -1663,7 +1663,96 @@ body {
     -moz-hyphens: auto;
 }
 
-/* Responsive adjustments for footer mission */
+/* Footer Services Section */
+.footer-services {
+    padding-top: 10px;
+}
+
+.footer-services .footer-title {
+    color: #4a90e2;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.services-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.service-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.service-item:hover {
+    background-color: rgba(74, 144, 226, 0.1);
+    border-left-color: #4a90e2;
+    transform: translateX(5px);
+}
+
+.service-icon {
+    width: 40px;
+    height: 40px;
+    background: linear-gradient(135deg, #4a90e2, #357abd);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 2px 8px rgba(74, 144, 226, 0.3);
+}
+
+.service-icon i {
+    color: white;
+    font-size: 16px;
+}
+
+.service-info h5 {
+    margin: 0 0 5px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+}
+
+.service-info p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 1.4;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+    .footer-content {
+        grid-template-columns: 1fr 1fr;
+        gap: 25px;
+    }
+    
+    .footer-services {
+        grid-column: 1 / -1;
+        margin-top: 20px;
+    }
+    
+    .services-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+    .service-item {
+        flex: 1;
+        min-width: 250px;
+    }
+}
+
 @media (max-width: 768px) {
     .footer-content {
         grid-template-columns: 1fr;
@@ -1672,12 +1761,17 @@ body {
     }
     
     .footer-mission {
-        margin-top: 20px;
         order: 2;
     }
     
     .footer-brand {
         order: 1;
+    }
+    
+    .footer-services {
+        order: 3;
+        grid-column: auto;
+        margin-top: 0;
     }
     
     .footer-mission .footer-title {
@@ -1694,5 +1788,18 @@ body {
     .mission-content p {
         font-size: 15px;
         line-height: 1.7;
+    }
+    
+    .services-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+    
+    .service-item {
+        min-width: auto;
+    }
+    
+    .footer-services .footer-title {
+        font-size: 18px;
     }
 }

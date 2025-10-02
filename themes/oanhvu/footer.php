@@ -47,8 +47,46 @@
                     </div>
                 </div>
 
+                <!-- Column 3: Service Details -->
+                <div class="footer-column footer-services">
+                    <h4 class="footer-title">Chi tiết dịch vụ</h4>
+                    <div class="services-list">
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fas fa-book-open"></i>
+                            </div>
+                            <div class="service-info">
+                                <h5>Học Phật Pháp</h5>
+                                <p>Lớp học kinh điển và thiền định</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="service-info">
+                                <h5>Sinh hoạt GDPT</h5>
+                                <p>Các hoạt động cộng đồng và từ thiện</p>
+                            </div>
+                        </div>
+                        
+                        <div class="service-item">
+                            <div class="service-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <div class="service-info">
+                                <h5>Nhạc Phật giáo</h5>
+                                <p>Học và thực hành nhạc GDPT</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
+            
         </div>
+        
     </footer>
 </div><!-- #page -->
 
