@@ -203,13 +203,13 @@ get_header(); ?>
                                 <p class="artist-specialty"></p>
                                 <div class="artist-social">
                                     <a href="tel:+84123456789" class="social-btn">
-                                        <i class="icon-phone"></i>
+                                        <i class="fa-solid fa-house"></i>
                                     </a>
                                     <a href="#" class="social-btn">
-                                        <i class="icon-facebook"></i>
+                                        <i class="fa-solid fa-book"></i>
                                     </a>
                                     <a href="#" class="social-btn">
-                                        <i class="icon-instagram"></i>
+                                    <i class="icon-phone"></i>
                                     </a>
                                 </div>
                             </div>
@@ -224,13 +224,13 @@ get_header(); ?>
                                 <p class="artist-specialty"></p>
                                 <div class="artist-social">
                                     <a href="tel:+84123456789" class="social-btn">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a>
+                                    <a href="#" class="social-btn">
+                                        <i class="fa-solid fa-book"></i>
+                                    </a>
+                                    <a href="#" class="social-btn">
                                         <i class="icon-phone"></i>
-                                    </a>
-                                    <a href="#" class="social-btn">
-                                        <i class="icon-facebook"></i>
-                                    </a>
-                                    <a href="#" class="social-btn">
-                                        <i class="icon-instagram"></i>
                                     </a>
                                 </div>
                             </div>
@@ -245,13 +245,13 @@ get_header(); ?>
                                 <p class="artist-specialty"></p>
                                 <div class="artist-social">
                                     <a href="tel:+84123456789" class="social-btn">
+                                        <i class="fa-solid fa-house"></i>
+                                    </a>
+                                    <a href="#" class="social-btn">
+                                        <i class="fa-solid fa-book"></i>
+                                    </a>
+                                    <a href="#" class="social-btn">
                                         <i class="icon-phone"></i>
-                                    </a>
-                                    <a href="#" class="social-btn">
-                                        <i class="icon-facebook"></i>
-                                    </a>
-                                    <a href="#" class="social-btn">
-                                        <i class="icon-instagram"></i>
                                     </a>
                                 </div>
                             </div>

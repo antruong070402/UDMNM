@@ -66,11 +66,56 @@ get_header(); ?>
             <!-- Tình Lam - GDPT Thiền Hương -->
             <div class="nhac-item">
                 <div class="nhac-content">
-                    <h2 class="nhac-title">Tình Lam - GDPT Thiền Hương</h2>
+                    <h2 class="nhac-title">Tình Lam - GDPT Vân Quật Đông </h2>
                     <p class="nhac-meta">
                         <span class="tho">Thơ: Bích Nguyên</span>
                         <span class="separator">-</span>
                         <span class="nhac">Nhạc: Nguyễn Văn Thăng</span>
+                    </p>
+                </div>
+                <div class="nhac-actions">
+                    <button class="btn-detail">
+                        <i class="fas fa-info-circle"></i> Chi tiết
+                    </button>
+                </div>
+            </div>
+            <div class="nhac-item">
+                <div class="nhac-content">
+                    <h2 class="nhac-title">Tình Lam - GDPT Vân Quật Đông </h2>
+                    <p class="nhac-meta">
+                        <span class="tho">Thơ: Bích Nguyên</span>
+                        <span class="separator">-</span>
+                        <span class="nhac">Nhạc: Nguyễn Văn Thăng</span>
+                    </p>
+                </div>
+                <div class="nhac-actions">
+                    <button class="btn-detail">
+                        <i class="fas fa-info-circle"></i> Chi tiết
+                    </button>
+                </div>
+            </div>
+            <div class="nhac-item">
+                <div class="nhac-content">
+                    <h2 class="nhac-title">Tình Lam - GDPT Vân Quật Đông </h2>
+                    <p class="nhac-meta">
+                        <span class="tho">Thơ: Bích Nguyên</span>
+                        <span class="separator">-</span>
+                        <span class="nhac">Nhạc: Nguyễn Văn Thăng</span>
+                    </p>
+                </div>
+                <div class="nhac-actions">
+                    <button class="btn-detail">
+                        <i class="fas fa-info-circle"></i> Chi tiết
+                    </button>
+                </div>
+            </div>
+            <div class="nhac-item">
+                <div class="nhac-content">
+                    <h2 class="nhac-title">Chí Hướng - GDPT Vân Quật Đông </h2>
+                    <p class="nhac-meta">
+                        <span class="tho"></span>
+                        <span class="separator">-</span>
+                        <span class="nhac">Nhạc: </span>
                     </p>
                 </div>
                 <div class="nhac-actions">
