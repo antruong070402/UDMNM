@@ -86,7 +86,7 @@ add_action('wp_enqueue_scripts', 'pressword_scripts');
  * Default menu fallback
  */
 function pressword_default_menu() {
-    echo '<ul id="primary-menu">';
+    echo '<ul id="primary-menu" class="nav-menu">';
     echo '<li><a href="' . esc_url(home_url('/')) . '">Trang chủ</a></li>';
     echo '<li><a href="' . esc_url(home_url('/Blog/')) . '">Phật Pháp</a></li>';
     echo '<li><a href="' . esc_url(home_url('/contact/')) . '">Tin Tức</a></li>';
