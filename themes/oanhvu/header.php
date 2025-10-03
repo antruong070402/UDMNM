@@ -83,6 +83,27 @@
                     ));
                     ?>
                     
+                    <!-- Language Switcher -->
+                    <div class="language-switcher">
+                        <div class="language-dropdown">
+                            <button class="language-btn">
+                                <i class="fas fa-globe"></i>
+                                <span class="current-lang">VI</span>
+                                <i class="fas fa-chevron-down"></i>
+                            </button>
+                            <div class="language-menu">
+                                <a href="#" class="language-option active" data-lang="vi">
+                                    <span class="flag">🇻🇳</span>
+                                    <span class="lang-name">Tiếng Việt</span>
+                                </a>
+                                <a href="#" class="language-option" data-lang="en">
+                                    <span class="flag">🇺🇸</span>
+                                    <span class="lang-name">English</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
                     <!-- Mobile Menu Toggle -->
                     <button class="mobile-menu-toggle">
                         <div class="hamburger">
@@ -92,27 +113,6 @@
                         </div>
                     </button>
                 </nav>
-
-                <!-- Language Switcher -->
-                <div class="language-switcher">
-                    <div class="language-dropdown">
-                        <button class="language-btn">
-                            <i class="fas fa-globe"></i>
-                            <span class="current-lang">VI</span>
-                            <i class="fas fa-chevron-down"></i>
-                        </button>
-                        <div class="language-menu">
-                            <a href="#" class="language-option active" data-lang="vi">
-                                <span class="flag">🇻🇳</span>
-                                <span class="lang-name">Tiếng Việt</span>
-                            </a>
-                            <a href="#" class="language-option" data-lang="en">
-                                <span class="flag">🇺🇸</span>
-                                <span class="lang-name">English</span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </header>
