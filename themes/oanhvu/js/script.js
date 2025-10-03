@@ -201,6 +201,114 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
+    // Language Switcher
+    const languageBtn = document.querySelector('.language-btn');
+    const languageMenu = document.querySelector('.language-menu');
+    const languageOptions = document.querySelectorAll('.language-option');
+    const currentLangSpan = document.querySelector('.current-lang');
+    
+    if (languageBtn && languageMenu) {
+        // Toggle language menu
+        languageBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            languageMenu.classList.toggle('active');
+        });
+        
+        // Handle language selection
+        languageOptions.forEach(option => {
+            option.addEventListener('click', function(e) {
+                e.preventDefault();
+                
+                const selectedLang = this.getAttribute('data-lang');
+                const flag = this.querySelector('.flag').textContent;
+                const langName = this.querySelector('.lang-name').textContent;
+                
+                // Update current language display
+                currentLangSpan.textContent = selectedLang.toUpperCase();
+                
+                // Remove active class from all options
+                languageOptions.forEach(opt => opt.classList.remove('active'));
+                
+                // Add active class to selected option
+                this.classList.add('active');
+                
+                // Close menu
+                languageMenu.classList.remove('active');
+                
+                // Store language preference
+                localStorage.setItem('selectedLanguage', selectedLang);
+                
+                // Show notification
+                showLanguageNotification(langName);
+                
+                // Here you can add actual language switching logic
+                // For example, redirect to different language versions
+                // or load different content based on selected language
+            });
+        });
+        
+        // Close menu when clicking outside
+        document.addEventListener('click', function(e) {
+            if (!languageBtn.contains(e.target) && !languageMenu.contains(e.target)) {
+                languageMenu.classList.remove('active');
+            }
+        });
+        
+        // Load saved language preference
+        const savedLang = localStorage.getItem('selectedLanguage');
+        if (savedLang) {
+            const savedOption = document.querySelector(`[data-lang="${savedLang}"]`);
+            if (savedOption) {
+                currentLangSpan.textContent = savedLang.toUpperCase();
+                languageOptions.forEach(opt => opt.classList.remove('active'));
+                savedOption.classList.add('active');
+            }
+        }
+    }
+    
+    // Function to show language change notification
+    function showLanguageNotification(langName) {
+        // Create notification element
+        const notification = document.createElement('div');
+        notification.className = 'language-notification';
+        notification.innerHTML = `
+            <div class="notification-content">
+                <i class="fas fa-check-circle"></i>
+                <span>Ngôn ngữ đã chuyển sang: ${langName}</span>
+            </div>
+        `;
+        
+        // Add styles
+        notification.style.cssText = `
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: linear-gradient(135deg, #4a90e2, #357abd);
+            color: white;
+            padding: 15px 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(74, 144, 226, 0.3);
+            z-index: 10000;
+            transform: translateX(100%);
+            transition: transform 0.3s ease;
+        `;
+        
+        document.body.appendChild(notification);
+        
+        // Animate in
+        setTimeout(() => {
+            notification.style.transform = 'translateX(0)';
+        }, 100);
+        
+        // Remove after 3 seconds
+        setTimeout(() => {
+            notification.style.transform = 'translateX(100%)';
+            setTimeout(() => {
+                document.body.removeChild(notification);
+            }, 300);
+        }, 3000);
+    }
+    
 });
 
 // Add CSS for hamburger animation

@@ -43,7 +43,7 @@
                 <div class="footer-column footer-mission">
                     <h4 class="footer-title">Hướng đến tương lai</h4>
                     <div class="mission-content">
-                        <p>GDPT Thiền Hương sẽ tiếp tục phát triển trong tình thương và trí tuệ, đồng hành cùng thế hệ trẻ giữ gìn ánh sáng Phật pháp muôn đời.</p>
+                        <p>GDPT Vân Quật Đông sẽ tiếp tục phát triển trong tình thương và trí tuệ, đồng hành cùng thế hệ trẻ giữ gìn ánh sáng Phật pháp muôn đời.</p>
                     </div>
                 </div>
 
@@ -52,9 +52,7 @@
                     <h4 class="footer-title">Chi tiết dịch vụ</h4>
                     <div class="services-list">
                         <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fas fa-book-open"></i>
-                            </div>
+                           
                             <div class="service-info">
                                 <h5>Học Phật Pháp</h5>
                                 <p>Lớp học kinh điển và thiền định</p>
@@ -62,9 +60,7 @@
                         </div>
                         
                         <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fas fa-users"></i>
-                            </div>
+                           
                             <div class="service-info">
                                 <h5>Sinh hoạt GDPT</h5>
                                 <p>Các hoạt động cộng đồng và từ thiện</p>
@@ -72,9 +68,7 @@
                         </div>
                         
                         <div class="service-item">
-                            <div class="service-icon">
-                                <i class="fas fa-music"></i>
-                            </div>
+                          
                             <div class="service-info">
                                 <h5>Nhạc Phật giáo</h5>
                                 <p>Học và thực hành nhạc GDPT</p>

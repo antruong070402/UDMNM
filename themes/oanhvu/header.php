@@ -13,6 +13,31 @@
 <div id="page" class="site">
     <header id="masthead" class="site-header">
         <div class="container">
+            <!-- Language Switcher -->
+            <div class="language-switcher">
+                <div class="language-dropdown">
+                    <button class="language-btn">
+                        <i class="fas fa-globe"></i>
+                        <span class="current-lang">VI</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="language-menu">
+                        <a href="#" class="language-option active" data-lang="vi">
+                            <span class="flag">🇻🇳</span>
+                            <span class="lang-name">Tiếng Việt</span>
+                        </a>
+                        <a href="#" class="language-option" data-lang="en">
+                            <span class="flag">🇺🇸</span>
+                            <span class="lang-name">English</span>
+                        </a>
+                        <a href="#" class="language-option" data-lang="zh">
+                            <span class="flag">🇨🇳</span>
+                            <span class="lang-name">中文</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
             <div class="header-content">
                 <div class="site-branding">
                     <div class="logo-container">
