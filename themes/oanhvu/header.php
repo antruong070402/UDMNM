@@ -82,6 +82,15 @@
                         'fallback_cb'    => 'pressword_default_menu',
                     ));
                     ?>
+                    
+                    <!-- Mobile Menu Toggle -->
+                    <button class="mobile-menu-toggle">
+                        <div class="hamburger">
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                            <div class="hamburger-line"></div>
+                        </div>
+                    </button>
                 </nav>
 
                 <!-- Language Switcher -->
