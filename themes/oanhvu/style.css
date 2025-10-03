@@ -46,9 +46,9 @@ body {
 
 /* Header */
 .site-header {
-    background: linear-gradient(135deg, #9b59b6 0%, #8e44ad 50%, #7d3c98 100%);
+    background: linear-gradient(135deg, #ba68c8 0%, #ce93d8 50%, #e1bee7 100%);
     padding: 30px 0;
-    box-shadow: 0 4px 20px rgba(155, 89, 182, 0.3);
+    box-shadow: 0 4px 20px rgba(186, 104, 200, 0.3);
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -103,7 +103,7 @@ body {
 }
 
 .nav-menu a {
-    color: white;
+    color: #4a148c;
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
@@ -221,12 +221,12 @@ body {
 .site-subtitle h2 {
     font-size: 28px;
     font-weight: 900;
-    color: #e8e8e8;
+    color: #4a148c;
     margin: 0;
     text-shadow: 
-        2px 2px 0px #333333,
-        4px 4px 0px #222222,
-        6px 6px 10px rgba(0, 0, 0, 0.5);
+        2px 2px 0px #ffffff,
+        4px 4px 0px #f3e5f5,
+        6px 6px 10px rgba(255, 255, 255, 0.3);
     letter-spacing: 3px;
     text-transform: uppercase;
     font-family: 'Arial Black', 'Arial', sans-serif;
@@ -1884,8 +1884,8 @@ body {
 }
 
 .language-btn {
-    background: white;
-    color: #333;
+    background: #f3e5f5;
+    color: #4a148c;
     border: none;
     padding: 8px 12px;
     border-radius: 6px;
