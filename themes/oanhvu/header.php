@@ -30,10 +30,7 @@
                             <span class="flag">🇺🇸</span>
                             <span class="lang-name">English</span>
                         </a>
-                        <a href="#" class="language-option" data-lang="zh">
-                            <span class="flag">🇨🇳</span>
-                            <span class="lang-name">中文</span>
-                        </a>
+                        
                     </div>
                 </div>
             </div>

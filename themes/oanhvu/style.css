@@ -1806,7 +1806,7 @@ body {
 
 /* Language Switcher */
 .language-switcher {
-    position: absolute;
+    position: fixed;
     top: 20px;
     right: 20px;
     z-index: 1000;
@@ -1917,6 +1917,7 @@ body {
     .language-switcher {
         top: 15px;
         right: 15px;
+        position: fixed;
     }
     
     .language-btn {
