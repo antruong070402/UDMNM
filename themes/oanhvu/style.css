@@ -60,6 +60,15 @@ body {
     align-items: center;
 }
 
+.header-content .main-navigation {
+    display: flex;
+    align-items: center;
+}
+
+.header-content .main-navigation + .language-switcher {
+    margin-left: 20px;
+}
+
 /* Logo Container */
 .logo-container {
     display: flex;
@@ -1806,10 +1815,9 @@ body {
 
 /* Language Switcher */
 .language-switcher {
-    position: fixed;
-    top: 20px;
-    left: 20px;
-    z-index: 1000;
+    position: relative;
+    display: inline-block;
+    margin-left: 20px;
 }
 
 .language-dropdown {
@@ -1915,9 +1923,7 @@ body {
 /* Responsive Language Switcher */
 @media (max-width: 768px) {
     .language-switcher {
-        top: 15px;
-        left: 15px;
-        position: fixed;
+        margin-left: 10px;
     }
     
     .language-btn {
