@@ -1808,7 +1808,7 @@ body {
 .language-switcher {
     position: fixed;
     top: 20px;
-    right: 20px;
+    left: 20px;
     z-index: 1000;
 }
 
@@ -1851,7 +1851,7 @@ body {
 .language-menu {
     position: absolute;
     top: 100%;
-    right: 0;
+    left: 0;
     background: white;
     border-radius: 10px;
     box-shadow: 0 8px 25px rgba(0,0,0,0.15);
@@ -1916,7 +1916,7 @@ body {
 @media (max-width: 768px) {
     .language-switcher {
         top: 15px;
-        right: 15px;
+        left: 15px;
         position: fixed;
     }
     
